@@ -1,0 +1,20 @@
+a ideia é basicamente criar um sistema com três partes principais.
+
+
+
+1. Um site onde as pessoas podem fazer reservas em um cabelereiro.
+
+2. Um servidor com banco de dados que organiza e armazena essas reservas.
+
+3. Uma aplicação utilizando Electron que visualiza essas reservas em uma tabela.
+
+
+Usar SQL para a aplicação pois as reservas terão valores fixos a serem preenchidos
+
+As tabelas terão nome, contato, dia, e uma descrição do corte (talvez incluir imagens?)
+
+
+
+Front end: Simplificar com um framework.
+Back end: Express e Sequelize
+Software: Electron
