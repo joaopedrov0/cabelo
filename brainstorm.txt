@@ -16,5 +16,5 @@ As tabelas terão nome, contato, dia, e uma descrição do corte (talvez incluir
 
 
 Front end: Simplificar com um framework.
-Back end: Express e Sequelize
+Back end: Express e Sequelize --- nao, vou usar supabase
 Software: Electron

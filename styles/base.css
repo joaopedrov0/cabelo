@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@300;400&family=Whisper&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+header{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+
+    background-color: #ce93d8;
+}
+
+#logo-img{
+    height: 64px;
+}
+
+#logo-text{
+    font-family: 'Whisper', cursive;
+    color: #15242b;
+    font-size: 38px;
+}
+
+#logo-div{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: clamp(300px, 90%, 960px);
+    margin: 20px auto 0;
+}
+
+.title-font{
+    font-family: 'Manrope', sans-serif;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+.datepicker-date-display{
+    background-color: #ce93d8;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form > input{
+    max-width: 300px;
+}
